@@ -1,0 +1,13 @@
+mtk_java_prebuilt_library {
+    apk: "SmartRatSwitch.apk",
+    certificate: "platform",
+    mtk_product_line: "tablet",
+    mtk_src_path: "vendor/mediatek/proprietary/packages/services/SmartPower",
+    mtk_type: "android_app_import",
+    name: "SmartRatSwitch",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+    ],
+    privileged: true,
+}
+
